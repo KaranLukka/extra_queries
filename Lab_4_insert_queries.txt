@@ -36,6 +36,17 @@ INSERT INTO Person VALUES
 
 
 -- extra queries
+1.Show city having maximum number of employees
+2.Find departments where average salary is greater than overall average salary
+3.Find department(s) with highest total salary
+4.List persons whose salary is greater than department average
+5.Find persons who earn same salary as someone else
+6.List persons who joined in the same year as another person
+7.Find departments where no employee earns less than 15000
+8.Display persons whose name starts and ends with vowel
+9.Display persons who earn exactly the department’s average salary
+10.Display salary difference between highest & lowest salary per department
+
  
     
     
