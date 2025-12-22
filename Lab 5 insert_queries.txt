@@ -47,3 +47,14 @@ INSERT INTO Account VALUES
 (106, 5, 13450, 'Current', '2019-10-13');
 
 
+
+--extra
+
+1. View showing branch-wise topper(s)
+2. View showing students having maximum backlog in their branch
+3. View showing students who failed (SPI < 4 OR Bklog > 5)
+4. View showing students whose SPI is greater than branch average SPI
+5. View showing customers whose minimum balance > 5000
+6. View showing customers having both Saving & Current accounts
+7. View showing inactive accounts (older than 3 years)
+
