@@ -1,0 +1,15 @@
+• Display employees whose salary is greater than the average salary of the entire company.
+• Find employees who joined in the last 1000 days.
+• Find the second highest salary.
+• Find salary difference between the highest and lowest paid employee.
+• Display employees whose name contains exactly 5 characters.
+• Display employees whose joining year is a leap year.
+• Show the alphabetical reverse of employee names.
+• Find employees whose salary is within 10% of the highest salary(Show employees who earn 90% or more of the highest salary.).
+• Show cities where more than 3 employees work.
+• Show the 3 youngest employees by joining date (most recently joined).
+• Find employees who have the maximum salary in the entire table and also belong to the highest city group.
+• Display employees who earn more than the average salary of their city.
+
+
+
