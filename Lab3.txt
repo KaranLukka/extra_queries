@@ -1,0 +1,45 @@
+Create table Employee(
+	Eid int,
+	Ename varchar(100),
+	Gender varchar(10),
+	JoiningDate datetime,
+	Salary decimal(8,2),
+	City varchar(100)
+);
+INSERT INTO Employee (EID, EName, Gender, JoiningDate, Salary, City) VALUES
+(1, 'Nick', 'Male', '2013-01-01', 4000, 'London'),
+(2, 'Julian', 'Female', '2014-10-01', 3000, 'New York'),
+(3, 'Roy', 'Male', '2016-06-01', 3500, 'London'),
+(4, 'Tom', 'Male', NULL, 4500, 'London'),
+(5, 'Jerry', 'Male', '2013-02-01', 2800, 'Sydney'),
+(6, 'Philip', 'Male', '2015-01-01', 7000, 'New York'),
+(7, 'Sara', 'Female', '2017-08-01', 4800, 'Sydney'),
+(8, 'Emily', 'Female', '2015-01-01', 5500, 'New York'),
+(9, 'Michael', 'Male', NULL, 6500, 'London'),
+(10, 'John', 'Male', '2015-01-01', 8800, 'London');
+
+
+
+--extra queries
+
+• Increase salary by 500 for employees who live in the same city as 'John'.
+• Set gender to 'Male' for all employees whose name ends with 'n'.
+• Update salary to 3000 for employees who have NULL salary.
+• Increase salary by 10% for employees who joined in 2020.
+• Set city to 'Unknown' for employees whose city is empty.
+• Delete employees who have salary less than 2000.
+• Delete employees whose joining year is 2010.
+• Delete employees whose gender value is not Male/Female
+• Delete employees whose salary is more than double the average salary of all employees.
+• Modify EName column to allow only 50 characters.
+• Add a column Country with default value 'India'.
+• Change datatype of City to VARCHAR(200).
+• Add a column ExperienceYears and update it based on JoiningDate.
+• Create a new table EmployeeHistory with same structure as Employee.	
+• Add column FullName and make it computed: FirstName + ' ' + abcde
+• Mask phone number except last 4 digits. (123456789)
+• Display only the last name from a full name column.
+• Show employees whose salary is not in the top 3 salaries.
+• select employees whose salary is within 10% of highest salary
+• List employees who earn more than the minimum salary of all employees in New York.
+• Find employees who joined after the employee with the lowest Salary.
