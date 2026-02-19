@@ -1,0 +1,10 @@
+
+1) Create an INSTEAD OF INSERT trigger on the Person table that prevents insertion of any record where the Salary is less than 10,000.
+2) Create an INSTEAD OF DELETE trigger on the Person table that prevents deletion of a record if the person’s Age is less than 18.
+3) Create an AFTER INSERT trigger on the Person table that automatically sets the JoiningDate to the current date (GETDATE()) if the user inserts a record with JoiningDate as NULL.
+4) Create an AFTER UPDATE trigger on the Person table that logs only salary changes into the PersonLog table.
+5) Create an AFTER INSERT trigger on the Person table that prints the total number of records present in the Person table after every insertion.
+6) Create a trigger that allows INSERT only on weekdays (Monday–Friday)
+7) Create a trigger that automatically sets City to 'Unknown' if NULL during INSERT.
+8) Create a trigger that prevents duplicate PersonName entries.
+9) Create a trigger that does not allow deleting all records from Person table.
