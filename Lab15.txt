@@ -1,0 +1,14 @@
+CREATE TABLE Emp_Info (
+    EmpID INT PRIMARY KEY,
+    EmpName VARCHAR(50) NOT NULL,
+    Department VARCHAR(30) NOT NULL,
+    Salary DECIMAL(10,2) NOT NULL,
+    City VARCHAR(30) NOT NULL
+);
+
+INSERT INTO Emp_Info (EmpID, EmpName, Department, Salary, City) VALUES
+(101, 'Rahul Patel', 'HR', 45000.00, 'Rajkot'),
+(102, 'Sneha Shah', 'IT', 60000.00, 'Ahmedabad'),
+(103, 'Vijay Mehta', 'Finance', 50000.00, 'Surat'),
+(104, 'Priya Desai', 'IT', 62000.00, 'Rajkot'),
+(105, 'Karan Joshi', 'HR', 48000.00, 'Baroda');
